@@ -3,9 +3,9 @@ import pandas as pd
 
 # API call 1
 url = "https://instagram-scraper-api2.p.rapidapi.com/v1/info"
-querystring = {"username_or_id_or_url":"xrlab.io","include_about":"true","url_embed_safe":"true"}
+querystring = {"username_or_id_or_url":"inserturl","include_about":"true","url_embed_safe":"true"}
 headers = {
-	"x-rapidapi-key": "5b987145bdmshd0cd597231ccf87p180d92jsn99fd5ca2c2c8",
+	"x-rapidapi-key": "insertapikey",
 	"x-rapidapi-host": "instagram-scraper-api2.p.rapidapi.com"
 }
 response = requests.get(url, headers=headers, params=querystring)
