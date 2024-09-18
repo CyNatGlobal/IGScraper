@@ -1,6 +1,6 @@
-# IGScraper
+# Social Scraper Example
 
-# Instagram Scraper Script with CSV File Outputs
+# Try out this Instagram Scraper Script with CSV File Outputs
 
 This script performs an API call to scrape Instagram data, converts it to a CSV, and then transposes the CSV content to create a second output file.
 Here's an explanation of the script:
@@ -81,12 +81,12 @@ import pandas as pd
 # API call 1
 url = "https://instagram-scraper-api2.p.rapidapi.com/v1/info"
 querystring = {
-    "username_or_id_or_url": "xrlab.io",
+    "username_or_id_or_url": "inserturl.com",
     "include_about": "true",
     "url_embed_safe": "true"
 }
 headers = {
-    "x-rapidapi-key": "5b987145bdmshd0cd597231ccf87p180d92jsn99fd5ca2c2c8",
+    "x-rapidapi-key": "insertapikey",
     "x-rapidapi-host": "instagram-scraper-api2.p.rapidapi.com"
 }
 response = requests.get(url, headers=headers, params=querystring)
